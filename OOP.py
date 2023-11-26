@@ -200,7 +200,3 @@
 # p.get_name()
 # print(p.fn)
 # print(p.get_name)
-
-
-
-
