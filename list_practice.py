@@ -1,0 +1,15 @@
+#marks =[50, 60, 66, 70, 75, 80]
+marks = [50, 60, 70, 75]
+print("marks of science is",marks[0])
+print("marks of math is", marks[1])
+print("marks of english is",marks[2])
+print("marks of neplai is",marks[3])
+marks.append(80)
+print("marks of social is",marks[4])
+marks.insert(2, 66)
+print("marks of health is",marks[2])
+print("Is 66 present in list:", 66 in marks)
+print("90 is present in list:", 90 in marks)
+marks.clear()
+print(marks)
+print(len(marks))
