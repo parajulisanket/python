@@ -155,36 +155,36 @@
 
 #----------------------------------------------------------------
 
-class Person:
-    def __init__(self,fn,ln,age):
-        self.fn = fn
-        self.ln = ln
-        self.age = age
+# class Person:
+#     def __init__(self,fn,ln,age):
+#         self.fn = fn
+#         self.ln = ln
+#         self.age = age
 
-    def full_name(self):
-        return f"Your fullname is {self.fn} {self.ln}, and your age {self.age}"
+#     def full_name(self):
+#         return f"Your fullname is {self.fn} {self.ln}, and your age {self.age}"
     
-class Student(Person):
-    def __init__(self, fn, ln, age,course,semester,college_name):
-        super().__init__(fn, ln, age)
-        self.course = course
-        self.semester = semester
-        self.college_name = college_name 
+# class Student(Person):
+#     def __init__(self, fn, ln, age,course,semester,college_name):
+#         super().__init__(fn, ln, age)
+#         self.course = course
+#         self.semester = semester
+#         self.college_name = college_name 
 
-    def detail(self):
-        return f"Your collage name is {self.college_name} course is {self.course}, and you are in {self.semester} sem."
+#     def detail(self):
+#         return f"Your collage name is {self.college_name} course is {self.course}, and you are in {self.semester} sem."
     
-user1 = input("enter your first name: ")
-user2 = input("enter your last name: ")
-user3 = int(input("enter your age: "))
-user4 = input("enter the name of college: ")
-user5 = input("enter your course name: ")
-user6 = int(input("enter your semester: "))
+# user1 = input("enter your first name: ")
+# user2 = input("enter your last name: ")
+# user3 = int(input("enter your age: "))
+# user4 = input("enter the name of college: ")
+# user5 = input("enter your course name: ")
+# user6 = int(input("enter your semester: "))
             
-p = Person(user1, user2, user3)
-p1 = Student(user4, user5, user6)
+# p = Person(user1, user2, user3)
+# p1 = Student(user4, user5, user6)
 
-print(p.full_name())
-print(p1.detail())
+# print(p.full_name())
+# print(p1.detail())
 
 
