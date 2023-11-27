@@ -188,3 +188,40 @@
 # print(p1.detail())
 
 
+#----------------Multilevel inheritance-------------------
+
+# class Phone:
+#     def __init__(self,brand_name, model_name,price):
+#         self.brand_name = brand_name
+#         self.model_name = model_name
+#         self.price = price
+
+    
+#     def fulldetail(self):
+#         return f"The price of {self.brand_name} {self.model_name} is {self.price}."
+    
+# class Smartphone(Phone):
+#     def __init__(self,brand_name, model_name,price,country,year):
+#         super().__init__(brand_name, model_name,price)
+#         self.country = country
+#         self.year = year
+        
+#     def location(self):
+#         return f"{self.fulldetail} was made in {self.country}."
+
+        
+# class Advancephone(Smartphone):
+#     def __init__(self, brand_name, model_name, price, country, year, camera, speed):
+#         super().__init__(brand_name, model_name, price, country, year)
+#         self.camera = camera
+#         self.speed = speed
+
+#     def camera_quality(self):
+#         return f"The camera quality if {self.fullname} is {self.camera}."
+
+# O = Phone('apple','Iphone 8', 30000)   
+# O1 = Smartphone('apple', 'Iphone X', 60000, 'America', 2018)
+# O2 = Advancephone('apple', 'Iphone 13', 120000, 'America', 2022, '20MP', '155hz' )
+# print(O.fulldetail())
+# print(O1.fulldetail())
+# print(O2.fulldetail())
