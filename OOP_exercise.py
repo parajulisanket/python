@@ -225,3 +225,30 @@
 # print(O.fulldetail())
 # print(O1.fulldetail())
 # print(O2.fulldetail())
+
+
+# --------------------Multiple inheritance(2)---------------------
+
+# class A:
+#     def class_a_method(self):
+#         return "I'm class A method."
+    
+#     def hello(self):
+#         return 'hello from class A.'
+    
+# class B:
+#     def class_b_method(self):
+#         return "I'm class B method."
+    
+#     def hello(self):
+#         return 'hello from class B.'
+    
+# class C(A,B):
+#     pass
+
+# # o = A()
+# # o1 = B()
+# # print(o.class_a_method())
+# # print(o1.class_b_method())
+# o2 = C()
+# print(o2.hello())
