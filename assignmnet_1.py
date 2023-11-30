@@ -50,12 +50,30 @@ if operator not in '+ - * / % //' :
 else:
     if operator =='+':
         print(f'The sum of {fn} and {sn} is {fn+sn}')
+    
     elif operator =='-':
-        print(f'The diff of {fn} and {sn} is {fn-sn}')
+
+        while True:
+            require = input("do you want absolute value? 'y' for yes and 'n' for no: ").upper()
+            if require == 'Y':
+                if fn > sn:
+                    print(f"The diff of {fn} and {sn} is {fn-sn}")
+                elif fn < sn:
+                    print(f"The diff of {fn} and {sn} is {sn-fn}")
+            elif require == 'N':
+                print(f"The diff of {fn} and {sn} is {fn-sn}")
+
+    
+    
+    
     elif operator =='*':
         print(f'The mult of {fn} and {sn} is {fn*sn}')
     elif operator =='/':
-        print(f'The div of {fn} and {sn} is {fn/sn}')
+        if fn < sn:
+            print(f"The div of {sn} and {fn} is {sn/fn}")
+        elif sn < fn:
+            print(f'The div of {fn} and {sn} is {fn/sn}')
+
     elif operator =='%':
         print(f'The mod of {fn} and {sn} is {fn%sn}')
     elif operator =='//':
