@@ -43,8 +43,8 @@
 # print(info['address']['district'])
 
 
-a = {'ram': 50, 'shyam': 60, 'hari': 80}
-a['rita'] = 25
-print(a)
-for i,j in a.items():
-    print(i,j)
+# a = {'ram': 50, 'shyam': 60, 'hari': 80}
+# a['rita'] = 25
+# print(a)
+# for i,j in a.items():
+#     print(i,j)
