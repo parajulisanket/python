@@ -16,38 +16,49 @@
 # else:
 #     print("Invalid operator.")
 
-fn = int(input("enter the 1st number:"))
-sn = int(input("enter the 2nd number:"))
-ch = input("Enter your choice (+, -, /, * ) ")
 
-if ch == '+':
-    sum = fn + sn
-    print("The result is:",sum)  
-elif ch == '-' and fn > sn:
-    sub = fn - sn
-    print("The substraction is:",sub)
-elif ch == '-' and sn > fn:
-    sub = sn - fn
-    print("The substraction is:",sub)
-elif ch == '*':
-    mul = fn * sn
-    print("The multipilcation is:",mul)
-elif ch == '/' and fn > sn:
-    div = fn / sn
-    print("The division is:",round(div,2))
-else:
-    print("Invalid operator.")
+# ---------------------------------------------------------------
+# fn = int(input("enter the 1st number:"))
+# sn = int(input("enter the 2nd number:"))
+# ch = input("Enter your choice (+, -, /, * ) ")
 
-    # calculator:
-# fn = int(input("enter first number: "))
-# sn = int(input("enter second number: "))
-# operator = input("enter operator:")
-# if operator not in '+ - * /' :
-#     print("Invalid operator")
+# if ch == '+':
+#     sum = fn + sn
+#     print("The result is:",sum)  
+# elif ch == '-' and fn > sn:
+#     sub = fn - sn
+#     print("The substraction is:",sub)
+# elif ch == '-' and sn > fn:
+#     sub = sn - fn
+#     print("The substraction is:",sub)
+# elif ch == '*':
+#     mul = fn * sn
+#     print("The multipilcation is:",mul)
+# elif ch == '/' and fn > sn:
+#     div = fn / sn
+#     print("The division is:",round(div,2))
 # else:
-#     if operator =='+':
-#         print(f'The sum of{fn} and {sn} is {fn+sn}')
-#     elif fn >= sn:
-#         print(f'The diff of{fn} and {sn} is {fn+sn}')
-#     elif:
-#     print(f'The diff of{fn} and {sn} is {sn+fn}')
+#     print("Invalid operator.")
+
+# ------------calculator------------------:
+
+fn = int(input("enter first number: "))
+sn = int(input("enter second number: "))
+operator = input("enter operator:")
+if operator not in '+ - * / % //' :
+    print("Invalid operator")
+else:
+    if operator =='+':
+        print(f'The sum of {fn} and {sn} is {fn+sn}')
+    elif operator =='-':
+        print(f'The diff of {fn} and {sn} is {fn-sn}')
+    elif operator =='*':
+        print(f'The mult of {fn} and {sn} is {fn*sn}')
+    elif operator =='/':
+        print(f'The div of {fn} and {sn} is {fn/sn}')
+    elif operator =='%':
+        print(f'The mod of {fn} and {sn} is {fn%sn}')
+    elif operator =='//':
+        print(f'The float_divison of {fn} and {sn} is {fn//sn}')
+
+

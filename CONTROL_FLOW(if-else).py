@@ -53,7 +53,7 @@
 # else:
 #     print("It is odd number.")
 
-
+#-------------------
 # f_name = 'sanket'
 # l_name = 'parajuli'
 
@@ -64,3 +64,18 @@
 # else:
 #     print('i am else.')
 
+
+#  ----- not and or ----1st not, 2nd and, 3rd or --------------
+
+#True and True and not True and not False or not True 
+# True and True and False and not False or not True
+# True and True and False and True or not True
+# True and True and False and True or False
+# True and False and True or False
+# False and True or False
+# False or False
+# False
+
+
+# a = int(input("enter a number:"))
+# print(type(a))
