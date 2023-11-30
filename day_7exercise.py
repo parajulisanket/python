@@ -7,9 +7,9 @@ def is_vowel(v):
             count = count + 1
     return count
 
-# name = input("enter the string:")
-# answer = is_vowel(name)
-# print("The answer is",answer)
+name = input("enter the string:")
+answer = is_vowel(name)
+print("The answer is",answer)
 
 
 
