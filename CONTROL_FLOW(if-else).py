@@ -52,3 +52,15 @@
 #     print(" It is even number.")
 # else:
 #     print("It is odd number.")
+
+
+# f_name = 'sanket'
+# l_name = 'parajuli'
+
+# if f_name == 'sanket':
+#     print('your f_name is sanket.')
+# elif f_name == 'parajuli':
+#     print('your f_name is parajuli.')
+# else:
+#     print('i am else.')
+
