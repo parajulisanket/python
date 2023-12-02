@@ -54,7 +54,7 @@ else:
     elif operator =='-':
 
         while True:
-            require = input("do you want absolute value? 'y' for yes and 'n' for no: ").upper()
+            require = input("Press 'y' for absolute value else press 'n' for normal answer: ").upper()
             if require == 'Y':
                 if fn > sn:
                     print(f"The diff of {fn} and {sn} is {fn-sn}")
