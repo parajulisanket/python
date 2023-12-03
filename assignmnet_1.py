@@ -63,19 +63,23 @@ else:
             elif require == 'N':
                 print(f"The diff of {fn} and {sn} is {fn-sn}")
 
-    
-    
-    
+     
     elif operator =='*':
         print(f'The mult of {fn} and {sn} is {fn*sn}')
+    
     elif operator =='/':
         if fn < sn:
             print(f"The div of {sn} and {fn} is {sn/fn}")
-        elif sn < fn:
+        else:
             print(f'The div of {fn} and {sn} is {fn/sn}')
-
+    
     elif operator =='%':
-        print(f'The mod of {fn} and {sn} is {fn%sn}')
+        if fn < sn:
+            print(f'The mod of {sn} and {fn} is {sn%fn}')
+        else:
+            (f'The mod of {fn} and {sn} is {sn%fn}')
+
+        
     elif operator =='//':
         print(f'The float_divison of {fn} and {sn} is {fn//sn}')
 
