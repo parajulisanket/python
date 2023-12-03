@@ -77,3 +77,19 @@
 #     total = total+ i
 #     i = i + 1
 # print("The answer is:",total)
+
+
+# a = ['ram', 'shyam', 'hari']
+# i = 0
+# while i < len(a):
+#     print(a[i])
+#     i = i+ 1
+
+# Enter a number 10, output : 10 is even
+
+while True:
+    user = int(input("enter the number: "))
+    if user % 2 == 0:
+        print(f"{user} is even.") 
+    else:
+        print(f"{user} is odd.")
