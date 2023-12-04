@@ -127,31 +127,31 @@
 
 # 5--------instance methods-----------calculatore using OOP-------------------------
 # while True:
-    # class Calculator:
-    #     def __init__(self,a,b,operator):
-    #         self.a = a
-    #         self.b = b
-    #         self.operator = operator
+#     class Calculator:
+#         def __init__(self,a,b,operator):
+#             self.a = a
+#             self.b = b
+#             self.operator = operator
     
-    #     def answer(self): # instance method:
-    #         if self.operator =='+':
-    #             return self.a + self.b
-    #         elif self.operator == '-':
-    #             return self.a - self.b
-    #         elif self.operator == '*':
-    #             return self.a * self.b
-    #         elif self.operator == '/':
-    #             return self.a / self.b
+#         def answer(self): # instance method:
+#             if self.operator =='+':
+#                 return self.a + self.b
+#             elif self.operator == '-':
+#                 return self.a - self.b
+#             elif self.operator == '*':
+#                 return self.a * self.b
+#             elif self.operator == '/':
+#                 return self.a / self.b
 
 
 
-    # user1 = int(input("enter the 1st number:"))
-    # user2 = int(input("enter the 2nd number:"))
-    # result = input("enter the operator:")
+#     user1 = int(input("enter the 1st number:"))
+#     user2 = int(input("enter the 2nd number:"))
+#     result = input("enter the operator:")
 
-    # p = Calculator(user1,user2,result)
+#     p = Calculator(user1,user2,result)
 
-    # print("The answer is:",p.answer())
+#     print("The answer is:",p.answer())
 
 #----------------------------------------------------------------
 
@@ -252,3 +252,19 @@
 # # print(o1.class_b_method())
 # o2 = C()
 # print(o2.hello())
+
+
+class Cal:
+    def __init__(self,fn, sn):
+        self.fn = fn
+        self.sn = sn
+
+    def sum(self):
+        return f'{self.fn} + {self.sn}'
+    
+user1 = int(input("enter the 1st number:"))
+user2 = int(input("enter the 2st number:"))
+
+p1 = Cal((user1,user2))
+print(p1.sum())
+
