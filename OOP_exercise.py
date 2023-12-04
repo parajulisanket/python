@@ -254,17 +254,17 @@
 # print(o2.hello())
 
 
-# class Cal:
-#     def __init__(self,fn, sn):
-#         self.fn = fn
-#         self.sn = sn
+class Cal:
+    def __init__(self,fn, sn):
+        self.fn = fn
+        self.sn = sn
 
-#     def sum(self):
-#         return f'{self.fn} + {self.sn}'
+    def sum(self):
+        return f'{self.fn} + {self.sn}'
     
-# user1 = int(input("enter the 1st number:"))
-# user2 = int(input("enter the 2st number:"))
+user1 = int(input("enter the 1st number:"))
+user2 = int(input("enter the 2st number:"))
 
-# p1 = Cal((user1,user2))
-# print(p1.sum())
+p1 = Cal((user1,user2))
+print(p1.sum())
 
