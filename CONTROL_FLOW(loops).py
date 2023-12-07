@@ -93,3 +93,13 @@
 #         print(f"{user} is even.") 
 #     else:
 #         print(f"{user} is odd.")
+
+
+a = ['sanket','ram','shyam','hari']
+i = 0
+while i < len(a):
+    print(a[i])
+    i = i +1
+ 
+
+
