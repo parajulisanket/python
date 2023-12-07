@@ -79,11 +79,11 @@
 # print("The answer is:",total)
 
 
-# a = ['ram', 'shyam', 'hari']
-# i = 0
-# while i < len(a):
-#     print(a[i])
-#     i = i+ 1
+a = ['ram', 'shyam', 'hari']
+i = 0
+while i < len(a):
+    print(a[i])
+    i = i+ 1
 
 # Enter a number 10, output : 10 is even
 
@@ -95,11 +95,11 @@
 #         print(f"{user} is odd.")
 
 
-a = ['sanket','ram','shyam','hari']
-i = 0
-while i < len(a):
-    print(a[i])
-    i = i +1
+# a = ['sanket','ram','shyam','hari']
+# i = 0
+# while i < len(a):
+#     print(a[i].capitalize())
+#     i = i +1
  
 
 

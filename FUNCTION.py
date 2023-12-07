@@ -13,6 +13,7 @@
 #         print('name found')
 #         break
 # --------------------------------------------------------
+
 # names = ['ram','shyam', 'hari', 'rita','sita']
 # for name in names:
 #     if name =='rita':
@@ -28,7 +29,6 @@
 # for n in nums:
 #     if n % 2 == 0:
 #         continue
-#         print('even')
 #     else:
 #         print('odd')
 
@@ -48,7 +48,7 @@
 
 # info('sanket','parajuli',20)
 
-#-----------------key word arguments------------------------------------------
+# -----------------key word arguments------------------------------------------
 # def info(fn, ln ,age):
 #     # print("Hi",fn,ln,'.' "Your age is",age)
 #     print(f'Hi {fn} {ln}. Your age is {age}')
@@ -66,13 +66,18 @@
 
 #--------------------------------------------------------------------------------
 
-def add(*args):
-    print(args)
+# def add(*args):
+#     print(args)
 
-add()
-add(1)
-add(1,2)
-add(1,2,3)
+# add()
+# add(1)
+# add(1,2)
+# add(1,2,3)
+
+def my_function(*kids):
+  print("The youngest child is " + kids[2])
+
+my_function("Emil", "Tobias", "Linus","sanket","parajuli")
 
 #-----------------------------------------------------------
 
@@ -84,7 +89,11 @@ add(1,2,3)
 # info(fn="sanket",ln="parajuli")
 # info(fn="sanket",ln="parajuli",age=20)
 
+def my_function(**kid):
+  print("His last name is " + kid["lname"])
+  print("His first name is " + kid["fname"])
 
+my_function(fname = "Tobias", lname = "Refsnes")
 
 
 #-----------------------------------------------
@@ -95,3 +104,6 @@ add(1,2,3)
 # total = add(10,20,30)
 # print(total)
 
+
+for i in range(10):
+  print(i)

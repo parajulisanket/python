@@ -185,7 +185,7 @@
 #         self.age = age
 
 #     def get_name(self):
-#         print("i am base class.")
+#         print("I am base class.")
 
 # class fulltimeEmployee(employee):
 #     def __init__(self, fn, ln, age,address,salary):
@@ -197,6 +197,8 @@
 #         print("I am full time class.")
 
 # p = fulltimeEmployee('sanket','parajuli','20','baneshower',100)
+# p1 = employee('sanket','parajuli','20')
 # p.get_name()
+# p1.get_name()
 # print(p.fn)
-# print(p.get_name)
+# print(p.get_name())

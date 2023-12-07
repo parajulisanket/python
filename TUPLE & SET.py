@@ -54,9 +54,11 @@
 
 # Range:--------------------------------------------
 
-#print(list(range(10)))
-#print(list(range(10,101,2)))
-#print(list(range(3,22,2)))
+# print(list(range(10)))
+# print(list(range(10,101,2)))
+# print(list(range(3,22,2)))
+# for i in range(10):
+#     print(i)
 
 
 
