@@ -82,7 +82,7 @@
 a = ['ram', 'shyam', 'hari']
 i = 0
 while i < len(a):
-    print(a[i])
+    print(a[i].capitalize())
     i = i+ 1
 
 # Enter a number 10, output : 10 is even
