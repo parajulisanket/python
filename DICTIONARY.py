@@ -12,26 +12,26 @@
 # print(student_grade['ishan'])
 # print(student_grade['anumesh'])
 
-#student_grade['anumesh']= 95
-#print(student_grade)
+# student_grade['anumesh']= 95
+# print(student_grade)
 
-#print('sanket' in student_grade)
+# print('sanket' in student_grade)
 
-#delete
-#del student_grade['anumesh']
-#print(student_grade)
+# # delete
+# del student_grade['anumesh']
+# print(student_grade)
 
-#clear:
-#print(student_grade.clear())
+# # clear:
+# print(student_grade.clear())
 
-#keys:
+# # keys:
 # print(student_grade.keys())
 
-#values:
-#print(student_grade.values())
+# # values:
+# print(student_grade.values())
 
-# items()
-#print(student_grade.items())
+# # items()
+# print(student_grade.items())
 
 # nested dictionary: dictionary inside dictionary.
 
@@ -48,3 +48,12 @@
 # print(a)
 # for i,j in a.items():
 #     print(i,j)
+
+
+a = {'ram':50, 'rita': 25}
+a['shyam']= 28
+print(a)
+print(len(a))
+print(a.keys())
+print(a.values())
+print(type(a))
