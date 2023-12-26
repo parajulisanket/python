@@ -50,10 +50,10 @@
 #     print(i,j)
 
 
-a = {'ram':50, 'rita': 25}
-a['shyam']= 28
-print(a)
-print(len(a))
-print(a.keys())
-print(a.values())
-print(type(a))
+# a = {'ram':50, 'rita': 25}
+# a['shyam']= 28
+# print(a)
+# print(len(a))
+# print(a.keys())
+# print(a.values())
+# print(type(a))

@@ -74,10 +74,10 @@
 # add(1,2)
 # add(1,2,3)
 
-def my_function(*kids):
-  print("The youngest child is " + kids[2])
+# def my_function(*kids):
+#   print("The youngest child is " + kids[2])
 
-my_function("Emil", "Tobias", "Linus","sanket","parajuli")
+# my_function("Emil", "Tobias", "Linus","sanket","parajuli")
 
 #-----------------------------------------------------------
 
@@ -89,11 +89,11 @@ my_function("Emil", "Tobias", "Linus","sanket","parajuli")
 # info(fn="sanket",ln="parajuli")
 # info(fn="sanket",ln="parajuli",age=20)
 
-def my_function(**kid):
-  print("His last name is " + kid["lname"])
-  print("His first name is " + kid["fname"])
+# def my_function(**kid):
+#   print("His last name is " + kid["lname"])
+#   print("His first name is " + kid["fname"])
 
-my_function(fname = "Tobias", lname = "Refsnes")
+# my_function(fname = "Tobias", lname = "Refsnes",mname="bahadur")
 
 
 #-----------------------------------------------
@@ -107,3 +107,68 @@ my_function(fname = "Tobias", lname = "Refsnes")
 
 # for i in range(10):
 #   print(i)
+
+# 1 -----------------------------------
+# def odd_even(num):
+#     if num % 2 == 0:
+#         return True
+#     else:
+#         return False
+    
+# user = int(input("enter the number: "))
+# result = odd_even(user)
+# print(result)
+
+
+# 2 -------------------------------
+# def upper_case(str):
+#     return str.upper()
+
+# user = input("enter the string: ")
+# print(upper_case(user))
+
+
+# 3 ----------------------------------
+# def last_alpha(inp_str):
+#     result = inp_str[-1]
+#     return result
+
+# user = input("enter the string: ")
+# print(last_alpha(user))
+
+# 4 -------------------------------------
+# def number_a(inp_str):
+#   inp_str = inp_str.lower()
+#   count = 0
+#   for i in inp_str:
+#     if 'a' in i:
+#       count += 1
+#   return count
+
+# user = input("enter a string: ")
+# print(number_a(user))
+
+
+# 5 ----------------------------------
+def max_number(inp_str):
+    max = inp_str[0]
+
+    for i in inp_str:
+        if i > max:
+            max = i
+    return max
+    
+
+user = [10,20,40,50,45,34]
+print(max_number(user))
+
+
+# 6 ---------------------------------
+# def average(a,b):
+#     return (a+b)/2
+
+# a = int(input("enter a 1st number: "))
+# b = int(input("enter a 2nd number: "))
+
+# print(average(a,b))
+
