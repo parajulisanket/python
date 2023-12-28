@@ -150,25 +150,97 @@
 
 
 # 5 ----------------------------------
-def max_number(inp_str):
-    max = inp_str[0]
+# def max_number(inp_str):
+#     max = inp_str[0]
 
-    for i in inp_str:
-        if i > max:
-            max = i
-    return max
+#     for i in inp_str:
+#         if i > max:
+#             max = i
+#     return max
     
 
-user = [10,20,40,50,45,34]
-print(max_number(user))
+# user = [10,20,40,50,45,34]
+# print(max_number(user))
 
 
 # 6 ---------------------------------
-# def average(a,b):
-#     return (a+b)/2
+# def average(num):
+#     # sum = 0
+#     # for i in num:
+#     #     sum += i
+#     # answer = sum / len(num)
+#     # return answer
+#     return round(sum(num) / len(num))
 
-# a = int(input("enter a 1st number: "))
-# b = int(input("enter a 2nd number: "))
+# print(average([1,2,3,4,5,6,7,8,9]))
+    
 
-# print(average(a,b))
+# 7 WAPP and return consonents present in the string.
+ 
+# def consonent(inp_str):
+#     empty = ""
+#     count = 0
+#     vowels = "AEIOUaeiou"
+#     for i in inp_str:
+#         if i not in vowels:
+#             empty = empty + i
+#             count = count + 1
+#     return empty,count
+
+# user = input("enter a string: ")
+# print(consonent(user))
+
+
+# 8 WAPP to check wheather that email address is gmail address or not.
+
+# def email(inp_str):
+#     a = inp_str.split('@')[1]
+#     for i in a:
+#         if i in 'gmail.com':
+#             return True
+#         return False
+
+# user = input("enter a email: ")
+# print(email(user))
+
+# 9 WAPP that checks wheather edu.np is present in string or not
+
+# def check(inp_str):
+#     a = inp_str.split('@')[1]
+#     for i in a:
+#         if i in 'edu.np':
+#             return True
+#         return False
+
+# user = input("enter a email: ")
+# print(check(user))
+ 
+
+# 10 WAPP that takes number and seperate into odd and even
+
+# def odd_even(*args):
+#     even = []
+#     odd = []
+
+#     for i in args:
+#         if i % 2 == 0:
+#             even.append(i)
+#         else:
+#             odd.append(i)
+#     return even,odd
+
+# print(odd_even(1,2,3,4,5,6,7,8,9))
+
+
+# 11 WAPP to check wheather the number is palindrom or not.
+
+# def palindrom(inp_str):
+#     if inp_str.lower() == inp_str[::-1].lower():
+#         return True
+#     return False
+
+# user = input("enter a string: ")
+# print(palindrom(user))
+
+# 14 WAPP 
 
