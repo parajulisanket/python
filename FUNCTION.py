@@ -242,5 +242,36 @@
 # user = input("enter a string: ")
 # print(palindrom(user))
 
-# 14 WAPP 
 
+
+# 12 FInd the HCF of the number
+
+# def HCF(x,y):
+#     if x > y:
+#         smaller = y
+#     else:
+#         smaller = x
+#     for i in range(1,smaller + 1):
+#         if ((x % i == 0) and (y % i == 0)):
+#             hcf = i
+#     return f"The HCF of {x},{y} is: {hcf}"
+    
+# x = int(input("enter the number for x: "))
+# y = int(input("enter the number for y: "))
+# print(HCF(x,y))
+
+
+# 13 WAPP to count the number of vowels in string.
+
+# user = input("enter a string: ")
+
+# user = user.casefold()
+# vowels = "aeiou"
+
+# count = {}.fromkeys(vowels,0)
+
+# for i in user:
+#     if i in vowels:
+#         count[i] += 1
+# print(count)
+        
