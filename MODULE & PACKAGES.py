@@ -4,7 +4,7 @@
 # Package:
     # collection of module
 
-# Alias:
+# Alias (as):
     # Nickname given to module/package.
 
 # PIP (Python Istall Package)

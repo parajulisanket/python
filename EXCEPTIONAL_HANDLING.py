@@ -5,7 +5,6 @@
 
 # Type of errors :
 
-
      # syntax errors:
         #It occurs due to mistake in the syntax.
         #If we write code that python does not understand it throws an errors called syntax error.
@@ -50,16 +49,15 @@
 # example of try and except and finally:
 # while True:
 #     try:
-#         first = int(input("enter first number"))
-#         second = int(input("enter second number"))
+#         first = int(input("enter first number: "))
+#         second = int(input("enter second number: "))
 #         print(first/second)
 #     except ZeroDivisionError:
-#         print("second number can't be zero")
+#         print("second number can't be zero.")
 #     except ValueError:
-#         print("input must be number")
+#         print("input must be number.")
 #     except Exception as e:
-#         print("an error occured")
+#         print("an error occured.")
 #         print(type(e))
 #     finally:
 #         print("Thank you for visiting.")
-
