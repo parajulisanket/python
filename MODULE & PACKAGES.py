@@ -47,3 +47,10 @@
 # from module_1 import add
 # print(add(20,10))
 
+import sys
+
+a = list(range(1000))
+print(sys.getsizeof(a))
+
+print(sys.getsizeof(1))
+
