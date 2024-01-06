@@ -53,4 +53,3 @@ a = list(range(1000))
 print(sys.getsizeof(a))
 
 print(sys.getsizeof(1))
-
