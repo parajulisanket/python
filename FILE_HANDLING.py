@@ -39,7 +39,7 @@
 # ---------------using .readlines method----------------
 # f = open('file1.txt')
 # lines = f.readlines()
-# print(len(lines))
+# # print(len(lines))
 # for i in lines:
 #     print(i) 
 # f.close()
@@ -56,16 +56,20 @@
 # ---------------using .write(w) method----------------
 # with open('file2.txt' , 'w') as f:
 #     f.write('hello!!')
-
+#     f.close()
+# f = open('file2.txt','r')
+# print(f.read())
 
 # ---------------using .append(a) method----------------
 
 # with open('file1.txt','a') as f:
 #     f.write('\nIt is very enjoyable.')
+#     f.close()
 
 
 # with open('file2.txt','a') as f:
 #     f.write('\nMy name is Sanket.')
+#     f.close()
 
 
 # ---------------using .read and write(r+) method----------------
@@ -82,3 +86,5 @@
 #     with open('file4.txt','w') as wf:
 #         wf.write('HI\n')
 #         wf.write(rf.read())
+#         rf.close()
+#         wf.close()
