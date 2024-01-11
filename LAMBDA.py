@@ -45,3 +45,49 @@
 # a = int(input("enter the number:"))
 # b = lambda n: True if n % 2 == 0 else False
 # print("the answer is:",b(a))
+
+
+# WAPP that take two numbers and return the summbition of those two number
+
+# user1 = int(input("enter the 1st number: "))
+# user2 = int(input("enter the 2nd number: "))
+
+# answer  = lambda user1,user2: (user1 + user2)  
+# print(answer(user1,user2))
+
+
+# WAPP that returns true if even false if odd
+
+# user = int(input("enter the number: ")) 
+# answer = lambda user: (print(f"{user} is even") if user % 2 == 0 else print(f"{user} is odd"))
+# answer(user)
+
+
+# write  a lambda function that takkes a string and return the first letter of that string.
+
+# user_input = input("enter the string: ")
+# answer = lambda x : x[-1]
+# print(answer(user_input))
+
+
+# write a lambda function that takkes a string and return the reverse of that string.
+
+# user_input = input("enter the string:")
+# user = lambda x : x[::-1]
+# print(user(user_input))
+
+
+# write a lambda function that takkes a string and check palindrome or not.
+
+# user_input = input("enter the string:")
+# user_input = user_input.casefold()
+# user = lambda x : True if user_input == user_input[::-1] else False
+# print(user(user_input))
+
+
+# write a lambda function that takkes a string and check weather letter u in string pr not.
+
+# user_input = input("enter the string:")
+# user_input = user_input.casefold()
+# user = lambda x : True if 'u' in user_input else False
+# print(user(user_input))
