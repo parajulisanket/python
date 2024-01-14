@@ -20,7 +20,7 @@
 #----------------------------------------------------
 
 # names = ['ram','shyam','hari','rythm','shonu','ritu','rishu']
-# Cap_name = [name.capitalize()for name in names]
+# Cap_name = [name.upper()for name in names]
 # print(Cap_name)
 
 #------------------Filter----------------------------

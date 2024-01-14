@@ -144,4 +144,12 @@
 
 
 #1 make a keyword detector in python (import keyword)
+import keyword
+
+keyword_list = keyword.kwlist
+user = input("enter a word: ")
+
+if user in keyword_list:
+    print(f"{user} is a keyword.")
+
 #2 enter your expenditure on january rent, lunch, fule/travel, food (filename = month.png) 
