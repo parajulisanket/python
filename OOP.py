@@ -2,7 +2,7 @@
 # Career oriented > career focussed 
 # It is style of writing code using (class) and (object).
     # class:  
-#      Class is a blue print of an object.
+#     Class is a blue print of an object.
 #     It is a design/model/template of an object.
 #     It defines/describe how an object should look like.
     # object:    
@@ -68,8 +68,10 @@
 #         self.age = 20
 
 # p = Person() #  object instantiation
+# p1 = Person() #  object instantiation
 # print(p.first_name,p.last_name,p.age)
-# print(p.first_name) 
+# print(p1.first_name,p1.last_name) 
+
 
 #--------------------instance method:-----------------------------------------
 
@@ -88,11 +90,13 @@
 #         else:
 #             return 'No'
 
-# p1 = Person('sanket','parajuli',2)
+# p1 = Person('sanket','parajuli',20)
 # p2 = Person('samana','parajuli',18)
-# print(p2.f_name)
+
+# print(p2.full_name())
 # print(p1.full_name())
 # print(p1.is_above_18())
+# print(p2.is_above_18())
 
 
 #-------------------- class varaible:---------------------------------------
