@@ -44,8 +44,8 @@
 ## ---Pillers of OOP----------
 #Encapsulation:
     # The process of grouping together the properties of the class.
-    # it makes easier to find the bugs.
-    # bundling of attributes and methods inside a single class.
+    # It makes easier to find the bugs.
+    # Bundling of attributes and methods inside a single class.
 
 #Abstraction:
     # process of handling complexity by hiding unnecessary information from the user.
@@ -132,28 +132,31 @@
 
 # print(f'Your fullname is {p.f_name} {p.l_name}.')
 # print(f'Your age is {p.age}.')
+# print(f"Your school name is {p.school_name}.")
+# print(f"Your school address is {p.school_address}.")
+
 
 #-----------------------Encapsulation & Abstraction------------------------------------
 
-# class Phone:
-#     def __init__(self,brand, model,price): 
-#         self.brand = brand
-#         self.model = model
-#         self.price = price
+class Phone:
+    def __init__(self,brand, model,price): 
+        self.brand = brand
+        self.model = model
+        self.price = price
 
-#     def make_a_call(self,phone_number):
-#         self.phone_number = phone_number
-#         print(f'calling {self.phone_number}.....')
+    def make_a_call(self,phone_number):
+        self.phone_number = phone_number
+        return f'calling {self.phone_number}.....'
 
-#     def fullname(self):
-#         return (f'{self.brand} {self.model}')
+    def fullname(self):
+        return (f'{self.brand} {self.model}')
 
-# p = Phone('iphone','x',10000)
-# print(p.fullname())
-# print(p.price)
+p = Phone('iphone','x',10000)
+print(p.fullname())
+print(p.price)
 
-# user = int(input("enter your number:"))
-# print(p.make_a_call(user))
+user = int(input("enter your number:"))
+print(p.make_a_call(user))
     
 
 #-----------------------Inheritance------------------------------------
@@ -205,4 +208,4 @@
 # p.get_name()
 # p1.get_name()
 # print(p.fn)
-# print(p.get_name())
+# print(p.get_name())    

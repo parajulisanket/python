@@ -243,28 +243,37 @@
 #     def hello(self):
 #         return 'hello from class B.'
     
-# class C(A,B):
-#     pass
+# # class C(A,B):
+# #     pass
+# class C:
+#     def class_b_method(self):
+#         return "I'm class C method."
+    
+#     def hello(self):
+#         return 'hello from class C.'
 
-# # o = A()
-# # o1 = B()
+# o = A()
+# o1 = B()
+# o2 = C()
 # # print(o.class_a_method())
 # # print(o1.class_b_method())
-# o2 = C()
+
+# print(o.hello())
+# print(o1.hello())
 # print(o2.hello())
 
 
-class Cal:
-    def __init__(self,fn,sn):
-        self.fn = fn
-        self.sn = sn
+# class Cal:
+#     def __init__(self,fn,sn):
+#         self.fn = fn
+#         self.sn = sn
 
-    def sum(self):
-        return self.fn + self.sn
+#     def sum(self):
+#         return self.fn + self.sn
     
-user1 = int(input("enter the 1st number:"))
-user2 = int(input("enter the 2st number:"))
+# user1 = int(input("enter the 1st number:"))
+# user2 = int(input("enter the 2st number:"))
 
-p1 = Cal(user1,user2)
-print(p1.sum())
+# p1 = Cal(user1,user2)
+# print(p1.sum())
 
