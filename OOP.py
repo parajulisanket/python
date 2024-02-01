@@ -138,25 +138,25 @@
 
 #-----------------------Encapsulation & Abstraction------------------------------------
 
-class Phone:
-    def __init__(self,brand, model,price): 
-        self.brand = brand
-        self.model = model
-        self.price = price
+# class Phone:
+#     def __init__(self,brand, model,price): 
+#         self.brand = brand
+#         self.model = model
+#         self.price = price
 
-    def make_a_call(self,phone_number):
-        self.phone_number = phone_number
-        return f'calling {self.phone_number}.....'
+#     def make_a_call(self,phone_number):
+#         self.phone_number = phone_number
+#         return f'calling {self.phone_number}.....'
 
-    def fullname(self):
-        return (f'{self.brand} {self.model}')
+#     def fullname(self):
+#         return (f'{self.brand} {self.model}')
 
-p = Phone('iphone','x',10000)
-print(p.fullname())
-print(p.price)
+# p = Phone('iphone','x',10000)
+# print(p.fullname())
+# print(p.price)
 
-user = int(input("enter your number:"))
-print(p.make_a_call(user))
+# user = int(input("enter your number:"))
+# print(p.make_a_call(user))
     
 
 #-----------------------Inheritance------------------------------------
@@ -208,4 +208,34 @@ print(p.make_a_call(user))
 # p.get_name()
 # p1.get_name()
 # print(p.fn)
-# print(p.get_name())    
+# print(p.get_name()) 
+
+
+# ---------------------------------------------------------------------------------
+
+# class Person:
+#     def __init__(self, fn, ln, age, address):
+#         self.first_name = fn
+#         self.last_name = ln
+#         self.age = age
+#         self.address = address
+
+#     def get_full_name(self):
+#         return f"{self.first_name} {self.last_name}"
+    
+# class Student(Person):
+#     def __init__(self, fn, ln, age, address,fee):
+#         super().__init__(fn, ln, age, address)
+#         self.fee = fee
+
+# class Teacher(Person):
+#     def __init__(self, fn, ln, age, address,salary):
+#         super().__init__(fn, ln, age, address)
+#         self.salary = salary
+
+# p = Student('sanket','parajuli', 20, 'baneshower', 100000)
+# p1 = Teacher('Umesh','Regmi', 20, 'Balaju', 20000)
+# print(p.get_full_name())
+# print(p.fee)
+# print(p1.get_full_name())
+# print(p1.salary)
