@@ -277,3 +277,110 @@
 # p1 = Cal(user1,user2)
 # print(p1.sum())
 
+
+# --------------------------------------------------------------------------------------
+
+# 1 -------------------------------------------------------
+
+# class Vehicle:
+#     def __init__(self, max_speed, mileage):
+#         self.max_speed = max_speed
+#         self.mileage = mileage
+
+
+# user1 = int(input("enter the max_speed."))
+# user2 = int(input("enter the mileage."))
+
+# p = Vehicle(user1,user2)
+# print(f"The max speed is {p.max_speed}\nand mileage is {p.mileage}")
+
+
+# 2 -------------------create class vehicle without any variables and methods-------------------------
+
+# class Vehicle:
+#     pass
+
+
+# 3 -----------------------inheritance practice-----------creating child class----------------------------
+
+# class Vehicle:
+#     def __init__(self, name, max_speed, mileage):
+#         self.name = name
+#         self.max_speed = max_speed
+#         self.mileage = mileage
+
+# class Bus(Vehicle):
+#     def __init__(self, name, max_speed, mileage):
+#         super().__init__(name, max_speed, mileage)
+
+# user1 = input("enter the vehicle name: ")
+# user2 = int(input("enter the max_speed: "))
+# user3 = int(input("enter the mileage: "))
+
+# B = Bus(user1,user2,user3)
+# print(B.name,B.max_speed,B.mileage)
+
+
+# 4 ------------------------class inheritance----------------------------------------
+
+# class Vehicle:
+#     def __init__(self, name, max_speed, mileage):
+#         self.name = name
+#         self.max_speed = max_speed
+#         self.mileage = mileage
+
+# class Bus(Vehicle):
+#     def __init__(self, name, max_speed, mileage,seat_capacity = 50):
+#         super().__init__(name, max_speed, mileage)
+#         self.seat_capacity = seat_capacity
+
+# p = Bus('valvo',120,30)
+# print(f"The seating capacity of the bus is {p.seat_capacity} passengers")
+
+
+# 5 -----------class variable --------------------------------------------------
+
+# class Vehicle:
+#     color = 'white'
+#     def __init__(self,name, max_speed, mileage):
+#         self.name = name
+#         self.max_speed = max_speed
+#         self.mileage = mileage
+
+# class Bus(Vehicle):
+#     pass
+
+# class Car(Vehicle):
+#     pass
+
+# bus = Bus('TATA', 100, 30)
+# car = Car('Audi', 200, 25)
+
+# print(f"Color: {bus.color}, Vehicle name: {bus.name}, speed: {bus.max_speed}, mileage: {bus.mileage}")
+# print(f"Color: {car.color}, Vehicle name: {car.name}, speed: {car.max_speed}, mileage: {car.mileage}")
+
+
+# 6 ---------------------------------------------------------------------
+
+# class Vehicle:
+#     color = 'white'
+#     def __init__(self,name, max_speed, mileage, capacity= 50):
+#         self.name = name
+#         self.max_speed = max_speed
+#         self.mileage = mileage
+#         self.capacity = capacity
+
+#     def fare(self):
+#         return self.capacity * 100
+
+# class Bus(Vehicle):
+#     def fare(self):
+#         amount = super().fare()
+#         amount += amount * 10 / 100 
+#         return amount
+
+# p = Bus("valvo",100,20)
+# print(f"Total bus fare is:",p.fare())
+
+# # print(isinstance(p, Vehicle))
+# # print(type('color'))
